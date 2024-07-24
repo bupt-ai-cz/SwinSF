@@ -1,5 +1,5 @@
 
-# SwinSF：SwinSF: Image Reconstruction from Spatial-Temporal Spike Streams
+# SwinSF: Image Reconstruction from Spatial-Temporal Spike Streams
 
 欢迎来到 **SwinSF** 项目！该仓库包含 **Swin Spikeformer (SwinSF)** 模型的实现，正如论文 ["SwinSF: Image Reconstruction from Spatial-Temporal Spike Streams"](http://arxiv.org/abs/2407.15708) 中所描述的那样。SwinSF 旨在从脉冲相机生成的脉冲流中重建高质量图像，这对于运动模糊是一个挑战的高速成像尤为有用。
 
