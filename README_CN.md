@@ -30,7 +30,7 @@ pip install -r requirements.txt
 
 ### 数据集
 
-要开始 SwinSF 项目，您需要从 [百度网盘](https://www.baidu.com) 下载数据集到 datasets 目录。
+要开始 SwinSF 项目，您需要从 [百度网盘](https://pan.baidu.com/s/1N6tMru-fn5iJ0oyygHg1hQ?pwd=cps6) 下载数据集到 datasets 目录。
 
 - **spike-reds**：一个带有真实值的模拟数据集，250x400 像素，来自论文 [Spk2ImgNet: Learning to Reconstruct Dynamic Scene from Continuous Spike Stream](https://openaccess.thecvf.com/content/CVPR2021/papers/Zhao_Spk2ImgNet_Learning_To_Reconstruct_Dynamic_Scene_From_Continuous_Spike_Stream_CVPR_2021_paper.pdf)。
 - **spike-X4K**：为本项目创建的带有真实值的模拟数据集，1000x1000 像素。
