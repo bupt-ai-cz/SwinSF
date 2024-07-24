@@ -67,7 +67,7 @@ python test.py --data_mode 250 --dataset_path ./datasets/classA --device cuda:0 
 ```
 
 ## Model Weights
-We provide pre-trained weights for two resolutions, which can be downloaded from [Baidu Wangpan](https://www.baidu.com). 
+We provide pre-trained weights for two resolutions, which can be downloaded from [Baidu Wangpan](https://pan.baidu.com/s/1Rkwz0bbie5kumZykkJMtyg?pwd=x7z8), code is : x7z8.
 
 ## Citation
 If you find our work useful for your research, please consider citing our paper:

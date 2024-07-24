@@ -78,7 +78,7 @@ python test.py --data_mode 250 --dataset_path ./datasets/classA --device cuda:0 
 
 ## 模型权重
 
-我们提供了两个分辨率的预训练权重，可以从 [百度网盘](https://www.baidu.com) 下载。
+我们提供了两个分辨率的预训练权重，可以从 [百度网盘](https://pan.baidu.com/s/1Rkwz0bbie5kumZykkJMtyg?pwd=x7z8)下载，提取码为x7z8。
 ## 引用
 
 如果您发现我们的工作对您的研究有用，请考虑引用我们的论文：
