@@ -35,6 +35,8 @@ To begin with the SwinSF project, you will need to download the datasets from [B
 - **spike-X4K**: A simulated dataset created for this project, with ground truth, 1000x1000 pixels.
 - **spike-classA**: A dataset captured by a spike camera from the Peking University team, 250x400 pixels, without ground truth.
 
+Please note that the reds and classA datasets are not created by our team, so please contact the original authors to download them.
+
 ## Training
 
 To train the SwinSF model on the reds dataset, use the following command:
@@ -65,7 +67,7 @@ python test.py --data_mode 250 --dataset_path ./datasets/classA --device cuda:0 
 ```
 
 ## Model Weights
-We provide pre-trained weights for two resolutions, which can be downloaded from [Baidu Wangpan](https://www.baidu.com). Please note that the reds and classA datasets are not created by our team, so please contact the original authors to download them.
+We provide pre-trained weights for two resolutions, which can be downloaded from [Baidu Wangpan](https://www.baidu.com). 
 
 ## Citation
 If you find our work useful for your research, please consider citing our paper:
