@@ -5,7 +5,7 @@
 If you like our project, please give us a star ⭐ on GitHub.  </h5>
 <h5 align="center">
 
-**Authors:** Liangyan Jiang, [Chuang Zhu](http://eis.whu.edu.cn/index/szdwDetail?rsh=00030713&newskind_id=20160320222026165YIdDsQIbgNtoE)✉️ and Yanxu Chen from BUPT, Beijing, China.
+**Authors:** Liangyan Jiang, [Chuang Zhu](https://teacher.bupt.edu.cn/zhuchuang/zh_CN/index.htm)✉️ and Yanxu Chen from BUPT, Beijing, China.
 
 
 [![arXiv](https://img.shields.io/badge/Arxiv-2407.15708-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2407.15708)
