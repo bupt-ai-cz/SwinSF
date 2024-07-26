@@ -58,7 +58,15 @@ pip install -r requirements.txt
 ```
 ### 📖 Datasets
 
-To begin with the SwinSF project, you will need to download the datasets from [Baidu Wangpan](https://pan.baidu.com/s/1N6tMru-fn5iJ0oyygHg1hQ?pwd=cps6) to the datasets directory.
+### Datasets
+
+- **spike-X4K**: This is a new simulated dataset created specifically for this project by our teams. It contains spike streams paired with ground truth images at a resolution of 1000x1000 pixels. The spike-X4K dataset is designed to enhance the performance and evaluation of spike-based image reconstruction algorithms. You can download this dataset from [Baidu Wangpan](https://pan.baidu.com/s/1N6tMru-fn5iJ0oyygHg1hQ?pwd=cps6). The page of the new dataset is [Papers with Code](https://paperswithcode.com/dataset/spike-x4k).
+
+- **spike-reds**: This is a simulated dataset with ground truth images at a resolution of 250x400 pixels. It is sourced from the paper [Spk2ImgNet: Learning to Reconstruct Dynamic Scene from Continuous Spike Stream](https://openaccess.thecvf.com/content/CVPR2021/papers/Zhao_Spk2ImgNet_Learning_To_Reconstruct_Dynamic_Scene_From_Continuous_Spike_Stream_CVPR_2021_paper.pdf). This dataset is not created by our team, so please contact the original authors to download it.
+
+- **spike-classA**: This dataset was captured using a spike camera by the Peking University team. It consists of images at a resolution of 250x400 pixels and does not include ground truth images. This dataset is also not created by our team, so please contact the original authors to download it.
+
+To begin with the SwinSF project, you will need to download the datasets and put them into ./datasets directory.
 
 - **spike-reds**: A simulated dataset with ground truth, 250x400 pixels, from the paper [Spk2ImgNet: Learning to Reconstruct Dynamic Scene from Continuous Spike Stream](https://openaccess.thecvf.com/content/CVPR2021/papers/Zhao_Spk2ImgNet_Learning_To_Reconstruct_Dynamic_Scene_From_Continuous_Spike_Stream_CVPR_2021_paper.pdf).
 - **spike-X4K**: A simulated dataset created for this project, with ground truth, 1000x1000 pixels.
