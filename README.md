@@ -68,11 +68,8 @@ pip install -r requirements.txt
 
 To begin with the SwinSF project, you will need to download the datasets and put them into ./datasets directory.
 
-- **spike-reds**: A simulated dataset with ground truth, 250x400 pixels, from the paper [Spk2ImgNet: Learning to Reconstruct Dynamic Scene from Continuous Spike Stream](https://openaccess.thecvf.com/content/CVPR2021/papers/Zhao_Spk2ImgNet_Learning_To_Reconstruct_Dynamic_Scene_From_Continuous_Spike_Stream_CVPR_2021_paper.pdf).
-- **spike-X4K**: A simulated dataset created for this project, with ground truth, 1000x1000 pixels.
-- **spike-classA**: A dataset captured by a spike camera from the Peking University team, 250x400 pixels, without ground truth.
-
 Please note that the reds and classA datasets are not created by our team, so please contact the original authors to download them.
+
 
 ## 💻 Training
 
