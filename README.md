@@ -5,7 +5,7 @@
 If you like our project, please give us a star ⭐ on GitHub.  </h5>
 
 <h5 align="center">
-📢 <b>News</b>: Our paper has been <b>accepted by ICVRV 2024</b> and will be officially published in <b>December 2024</b>! 🎉<br>
+📢📢📢 <b>News</b>: Our paper has been <b>accepted by ICVRV 2024</b> and will be officially published in <b>December 2024</b>! 🎉<br>
 Please check the final IEEE version here: <a href="https://ieeexplore.ieee.org/abstract/document/11028676/">10.1109/ICVRV62410.2024.00020</a>
 </h5>
 

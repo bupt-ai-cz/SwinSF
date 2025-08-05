@@ -1,7 +1,7 @@
 
-# SwinSF: Image Reconstruction from Spatial-Temporal Spike Streams
+# SwinSpikeFormer: Learning Comprehensive Spatial-Temporal Representation to Reconstruct Dynamic Scenes from Spike Streams
 
-欢迎来到 **SwinSF** 项目！该仓库包含 **Swin Spikeformer (SwinSF)** 模型的实现，正如论文 ["SwinSF: Image Reconstruction from Spatial-Temporal Spike Streams"](http://arxiv.org/abs/2407.15708) 中所描述的那样。SwinSF 旨在从脉冲相机生成的脉冲流中重建高质量图像，这对于运动模糊是一个挑战的高速成像尤为有用。
+欢迎来到 **SwinSF** 项目！该仓库包含 **Swin Spikeformer (SwinSF)** 模型的实现，正如论文 ["SwinSpikeFormer: Learning Comprehensive Spatial-Temporal Representation to Reconstruct Dynamic Scenes from Spike Streams"](https://ieeexplore.ieee.org/abstract/document/11028676/) 中所描述的那样。SwinSF 旨在从脉冲相机生成的脉冲流中重建高质量图像，这对于运动模糊是一个挑战的高速成像尤为有用。
 
 ## 目录
 
@@ -84,13 +84,20 @@ python test.py --data_mode 250 --dataset_path ./datasets/classA --device cuda:0 
 如果您发现我们的工作对您的研究有用，请考虑引用我们的论文：
 
 ```
-@misc{jiang2024swinsfimagereconstructionspatialtemporal,
-      title={SwinSF: Image Reconstruction from Spatial-Temporal Spike Streams}, 
-      author={Liangyan Jiang and Chuang Zhu and Yanxu Chen},
-      year={2024},
-      eprint={2407.15708},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2407.15708}, 
-}
+@INPROCEEDINGS {11028676,
+author = { Jiang, Liangyan and Zhu, Chuang and Chen, Yanxu },
+booktitle = { 2024 International Conference on Virtual Reality and Visualization (ICVRV) },
+title = {{ SwinSpikeFormer: Learning Comprehensive Spatial-Temporal Representation to Reconstruct Dynamic Scenes from Spike Streams }},
+year = {2024},
+volume = {},
+ISSN = {},
+pages = {60-65},
+abstract = { The spike camera, with its high temporal resolution, low latency, and high dynamic range, addresses high-speed imaging challenges such as motion blur. It captures photons at each pixel independently, creating binary spike streams rich in temporal information. However, these binary spike streams present a challenge for their reconstruction into images, which is necessary for performing subsequent downstream tasks. Current algorithms, both traditional and deep learning-based, fail in utilizing this rich temporal information and restoring the details of the reconstructed image. To tackle this challenge, we propose Swin Spikeformer (SwinSF), a novel model for dynamic scene reconstruction from spike streams. SwinSF is composed of three main modules: Spike Feature Extraction, Spatial-Temporal Feature Extraction, and Final Reconstruction Module. The Spike Feature Extraction Module uses convolution layers to directly extract features from the spike streams. The Spatial-Temporal Feature Extraction Module includes several Residual Swin Spikeformer Blocks (RSSB), which integrate shifted window self-attention and proposed Temporal Spike Attention (TSA) to effectively extract both spatial and temporal information from intra-frames and inter-frames, leading to a more robust and accurate reconstruction of spike streams. The Final Reconstruction Module fuses both spike and spatial-temporal features to produce the final image reconstruction. Furthermore, we have built a new synthesized dataset for spike image reconstruction, featuring high resolution and enhanced temporal fidelity through the use of frame interpolation techniques, which ensures its relevance and applicability to realistic spike camera imaging scenarios. Experimental results demonstrate that our proposed network, SwinSF, sets a new benchmark, achieving state-of-the-art performance across a series of datasets, including both real-world and synthesized data across various resolutions. Our codes and proposed dataset can be found at https://github.com/bupt-ai-cz/SwinSF. },
+keywords = {Solid modeling;Dynamics;Virtual reality;Feature extraction;Cameras;Transformers;Real-time systems;Spatial resolution;Image reconstruction;Streams},
+doi = {10.1109/ICVRV62410.2024.00020},
+url = {https://doi.ieeecomputersociety.org/10.1109/ICVRV62410.2024.00020},
+publisher = {IEEE Computer Society},
+address = {Los Alamitos, CA, USA},
+month =Dec}
+
 ```
