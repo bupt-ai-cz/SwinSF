@@ -1,4 +1,5 @@
-<h3 align="center">📄 [English README](./README.md) | 🇨🇳 [中文说明文档](./README_CN.md)
+<h3 align="center">
+📄 <a href="./README.md">English README</a> | 🇨🇳 <a href="./README_CN.md">中文说明文档</a>
 </h3>
 <h2 align="center"> 
   <a href="https://ieeexplore.ieee.org/abstract/document/11028676/">SwinSpikeFormer: Learning Comprehensive Spatial-Temporal Representation to Reconstruct Dynamic Scenes from Spike Streams</a>
@@ -15,7 +16,7 @@ Please check the final IEEE version here: <a href="https://ieeexplore.ieee.org/a
 
 **Authors:** Liangyan Jiang, [Chuang Zhu](https://teacher.bupt.edu.cn/zhuchuang/zh_CN/index.htm)✉️ and Yanxu Chen from BUPT, Beijing, China.
 
-
+[![IEEE](https://img.shields.io/badge/IEEE-ICVRV--2024-blue?logo=ieee&logoColor=white)](https://ieeexplore.ieee.org/document/11028676)
 [![arXiv](https://img.shields.io/badge/Arxiv-2407.15708-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2407.15708)
 [![License](https://img.shields.io/badge/License-MIT-yellow)](https://github.com/bupt-ai-cz/SwinSF)
 [![GitHub repo stars](https://img.shields.io/github/stars/bupt-ai-cz/SwinSF?style=flat&logo=github&logoColor=whitesmoke&label=Stars)](https://github.com/bupt-ai-cz/SwinSF)
